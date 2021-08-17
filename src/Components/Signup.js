@@ -52,7 +52,8 @@ export const Signup = (props) => {
         <Grid  align="center"  item xs={12} sm={4}>
           <Paper style={{ borderRadius: '0px',height:"550px",marginTop:"100px"}}
            className={classes.paper}>
-            
+                   
+                   <img src="https://th.bing.com/th/id/OIP.bc2DELyRUvruC6pOGBs_7QHaJo?w=182&h=237&c=7&o=5&pid=1.7" />
             <h2>SIGN UP</h2>
             <br></br>
             <br></br>

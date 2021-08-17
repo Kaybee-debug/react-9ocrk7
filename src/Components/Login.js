@@ -7,6 +7,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import TextField from '@material-ui/core/TextField';
+import "./style.css";
 
 
 
@@ -59,7 +60,10 @@ export const Login = (props) => {
         <br></br>
         <Grid  align="center"  item xs={12} sm={4}>
           <Paper style={{ borderRadius: '0px',height:"550px",marginTop:"100px"}}
-           className={classes.paper}><h2>SIGN IN</h2>
+           className={classes.paper}>
+             
+             <img src="https://th.bing.com/th/id/OIP.bc2DELyRUvruC6pOGBs_7QHaJo?w=182&h=237&c=7&o=5&pid=1.7" />
+             <h2>SIGN IN</h2>
             <br></br>
                <br></br>
            <form autoComplete="off" 
